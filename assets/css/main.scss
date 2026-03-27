@@ -161,10 +161,11 @@ html[data-lang="en"] .lang-en.lang-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: .6rem;
-  max-width: 1280px;
+  gap: .85rem;
+  width: min(1600px, 98vw);
+  max-width: none;
   margin: 0 auto;
-  padding: .4rem .5rem !important;
+  padding: .46rem .85rem !important;
 }
 
 .masthead__menu {
@@ -180,7 +181,7 @@ html[data-lang="en"] .lang-en.lang-block {
 .top-nav__links {
   display: flex;
   align-items: center;
-  gap: .32rem;
+  gap: .55rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -192,9 +193,9 @@ html[data-lang="en"] .lang-en.lang-block {
 }
 
 .top-nav__links a {
-  margin: 0 .6rem;
-  padding: .45rem 0;
-  font-size: .95rem;
+  margin: 0 .75rem;
+  padding: .5rem 0;
+  font-size: 1rem;
   letter-spacing: .01em;
 }
 
@@ -244,7 +245,7 @@ html[data-lang="en"] .lang-en.lang-block {
 }
 
 .intro-section {
-  margin: .3rem 0 1rem;
+  margin: 2.25rem 0 1rem;
   padding: 1.55rem 1.45rem 1.25rem;
   border-radius: 14px;
   background: var(--card-bg);
@@ -351,7 +352,8 @@ html[data-lang="en"] .lang-en.lang-block {
 
 @include breakpoint(max-width $medium) {
   .masthead__inner-wrap {
-    padding: .28rem .2rem !important;
+    width: min(100%, 100vw);
+    padding: .28rem .25rem !important;
   }
 
   .top-nav {
@@ -377,6 +379,7 @@ html[data-lang="en"] .lang-en.lang-block {
   }
 
   .intro-section {
+    margin-top: 1.15rem;
     padding: 1.15rem 1rem 1rem;
     border-radius: 12px;
   }
