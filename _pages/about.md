@@ -54,9 +54,6 @@ redirect_from:
    *Remote Sensing*, 2023, 15(4):1062.  
    DOI: [10.3390/rs15041062](https://doi.org/10.3390/rs15041062)
 
-3. **Wang, Y.**, Yang, J., Chen, G., Wu, K., Hou, M.  
-   A Submesoscale Eddy Identification Dataset Derived from GOCI I Chlorophyll-a Data based on Deep Learning.  
-   *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*（研究延展工作，后续可补充最终卷期页码）
 
 ## 🧪 项目与实践经历（持续更新）
 
@@ -81,7 +78,7 @@ redirect_from:
 - **摄影测量与高级定位技术融合**（2018.06–2018.08）  
   外业 GNSS/RTK 与航测流程实践，参与地表特征提取与定位工作。
 
-> 我目前在武大博二阶段，也在持续推进多个研究项目。后续你补充新项目后，我可以继续帮你按同一风格更新网页。
+> 我目前在武大博二阶段，也在持续推进多个研究项目。
 
 ## 🏅 荣誉奖励
 
