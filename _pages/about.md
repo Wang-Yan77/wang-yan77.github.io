@@ -8,131 +8,93 @@ redirect_from:
   - /about.html
 ---
 
-<section id="about-me" class="profile-hero">
-  <div class="lang-zh lang-block">
-    <h1>王岩</h1>
-    <p class="hero-subtitle">武汉大学博士研究生，研究聚焦于城市三维场景智能理解。</p>
-    <ul class="hero-meta">
-      <li>所在地：武汉，中国</li>
-      <li>邮箱：<a href="mailto:yan.wang77@outlook.com">yan.wang77@outlook.com</a></li>
-      <li>Google Scholar：<a href="https://scholar.google.com/citations?user=dn_KokcAAAAJ&hl">Scholar Profile</a></li>
-    </ul>
-  </div>
-  <div class="lang-en lang-block">
-    <h1>Wang Yan</h1>
-    <p class="hero-subtitle">Ph.D. student at Wuhan University, focusing on intelligent understanding of urban 3D scenes.</p>
-    <ul class="hero-meta">
-      <li>Location: Wuhan, China</li>
-      <li>Email: <a href="mailto:yan.wang77@outlook.com">yan.wang77@outlook.com</a></li>
-      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=dn_KokcAAAAJ&hl">Scholar Profile</a></li>
-    </ul>
-  </div>
-</section>
+<span class='anchor' id='about-me'></span>
 
-<section id="research" class="cv-section">
-  <div class="lang-zh lang-block">
-    <h2>研究方向</h2>
-    <ul>
-      <li>城市三维点云语义分割</li>
-      <li>城市三维场景理解</li>
-      <li>场景推理</li>
-      <li>场景图构建</li>
-    </ul>
-  </div>
-  <div class="lang-en lang-block">
-    <h2>Research Directions</h2>
-    <ul>
-      <li>Semantic segmentation of urban 3D point clouds</li>
-      <li>Urban 3D scene understanding</li>
-      <li>Scene reasoning</li>
-      <li>Scene graph construction</li>
-    </ul>
-  </div>
-</section>
+# 王焱（Wang Yan）
 
-<section id="education" class="cv-section">
-  <div class="lang-zh lang-block">
-    <h2>教育背景</h2>
-    <div class="edu-item">
-      <h3>武汉大学 博士（在读）</h3>
-      <p>测绘遥感信息工程全国重点实验室 | 2024.09 - 至今</p>
-      <p>专业：地图学与地理信息系统</p>
-    </div>
-    <div class="edu-item">
-      <h3>中国海洋大学 硕士</h3>
-      <p>信息科学与工程学院 | 2021.09 - 2024.06</p>
-      <p>专业：地图学与地理信息系统</p>
-    </div>
-    <div class="edu-item">
-      <h3>中国矿业大学 本科</h3>
-      <p>环境与测绘学院 | 2017.09 - 2021.06</p>
-      <p>专业：测绘工程</p>
-    </div>
-  </div>
-  <div class="lang-en lang-block">
-    <h2>Education</h2>
-    <div class="edu-item">
-      <h3>Wuhan University, Ph.D. Candidate</h3>
-      <p>State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing | 2024.09 - Present</p>
-      <p>Major: Cartography and Geographic Information Systems</p>
-    </div>
-    <div class="edu-item">
-      <h3>Ocean University of China, M.S.</h3>
-      <p>School of Information Science and Engineering | 2021.09 - 2024.06</p>
-      <p>Major: Cartography and Geographic Information Systems</p>
-    </div>
-    <div class="edu-item">
-      <h3>China University of Mining and Technology, B.E.</h3>
-      <p>School of Environment and Spatial Informatics | 2017.09 - 2021.06</p>
-      <p>Major: Surveying and Mapping Engineering</p>
-    </div>
-  </div>
-</section>
+武汉大学博士二年级研究生，研究方向聚焦于**海洋遥感、涡旋识别与海洋大数据智能分析**。
 
-<section id="publications" class="cv-section">
-  <div class="lang-zh lang-block">
-    <h2>代表论文</h2>
-    <ol>
-      <li>
-        <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., Peng, D.<br>
-        A submesoscale eddy identification dataset in the northwest Pacific Ocean derived from GOCI I chlorophyll a data based on deep learning.<br>
-        <em>Earth System Science Data</em>, 16, 5737-5752, 2024.<br>
-        DOI: <a href="https://doi.org/10.5194/essd-16-5737-2024">10.5194/essd-16-5737-2024</a>
-      </li>
-      <li>
-        <strong>Wang, Y.</strong>, Yang, J., Chen, G.<br>
-        Euphotic Zone Depth Anomaly in Global Mesoscale Eddies by MultiMission Fusion Data.<br>
-        <em>Remote Sensing</em>, 15(4):1062, 2023.<br>
-        DOI: <a href="https://doi.org/10.3390/rs15041062">10.3390/rs15041062</a>
-      </li>
-    </ol>
-  </div>
-  <div class="lang-en lang-block">
-    <h2>Selected Publications</h2>
-    <ol>
-      <li>
-        <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., Peng, D.<br>
-        A submesoscale eddy identification dataset in the northwest Pacific Ocean derived from GOCI I chlorophyll a data based on deep learning.<br>
-        <em>Earth System Science Data</em>, 16, 5737-5752, 2024.<br>
-        DOI: <a href="https://doi.org/10.5194/essd-16-5737-2024">10.5194/essd-16-5737-2024</a>
-      </li>
-      <li>
-        <strong>Wang, Y.</strong>, Yang, J., Chen, G.<br>
-        Euphotic Zone Depth Anomaly in Global Mesoscale Eddies by MultiMission Fusion Data.<br>
-        <em>Remote Sensing</em>, 15(4):1062, 2023.<br>
-        DOI: <a href="https://doi.org/10.3390/rs15041062">10.3390/rs15041062</a>
-      </li>
-    </ol>
-  </div>
-</section>
+- 📍 所在地：武汉（籍贯：山东淄博）
+- 📧 邮箱：yan.wang77@outlook.com
+- 📱 电话：15689908221
+- 🌐 Google Scholar: [Scholar Profile](https://scholar.google.com/citations?user=dn_KokcAAAAJ&hl)
 
-<section id="interests" class="cv-section">
-  <div class="lang-zh lang-block">
-    <h2>兴趣爱好</h2>
-    <p>摄影、篮球、徒步、旅行。</p>
-  </div>
-  <div class="lang-en lang-block">
-    <h2>Interests</h2>
-    <p>Photography, basketball, hiking, and travel.</p>
-  </div>
-</section>
+## 🎓 教育背景
+
+- **武汉大学**（博士在读，博二）
+  - 时间：2024.09 – 至今
+  - 专业：地图学与地理信息系统
+  - 导师：吴华意教授、桂志鹏教授
+
+- **中国海洋大学**（硕士）
+  - 时间：2021.09 – 2024.06
+  - 专业：地图学与地理信息系统
+  - 研究方向：卫星遥感、海洋大数据分析、目标检测、图像处理
+  - 导师：陈戈教授
+
+- **中国矿业大学**（本科）
+  - 时间：2017.09 – 2021.06
+  - 专业：测绘工程
+
+## 🔬 研究兴趣
+
+- 海洋中尺度/亚中尺度涡旋识别与动力学分析
+- 多源遥感数据融合
+- 点云语义分割
+- 三维场景理解
+
+## 📝 代表性论文
+
+1. **Wang, Y.**, Chen, G., Yang, J., Gui, Z., and Peng, D.  
+   A submesoscale eddy identification dataset in the northwest Pacific Ocean derived from GOCI I chlorophyll a data based on deep learning.  
+   *Earth System Science Data*, **16**, 5737–5752, 2024.  
+   DOI: [10.5194/essd-16-5737-2024](https://doi.org/10.5194/essd-16-5737-2024)
+
+2. **Wang, Y.**, Yang, J., Chen, G.  
+   Euphotic Zone Depth Anomaly in Global Mesoscale Eddies by MultiMission Fusion Data.  
+   *Remote Sensing*, 2023, 15(4):1062.  
+   DOI: [10.3390/rs15041062](https://doi.org/10.3390/rs15041062)
+
+
+## 🧪 项目与实践经历（持续更新）
+
+- **物理信息神经网络架构下的海洋涡旋全生命周期运动轨迹预测**（2021.09–2023.12）  
+  国家自然科学基金项目（42276203），参与海洋关键环境数据（风、浪、流、温、盐等）处理方法整理与标准化。
+
+- **新一代海洋科学卫星总体设计及关键技术研发与集成**（2021.09–2023.12）  
+  山东省重大科技创新工程专项（2021SDKJ0102），参与海洋观测科学问题梳理与载荷方案分析。
+
+- **海洋遥感大数据挖掘分析**（2022.10–2023.10）  
+  可持续发展目标大数据国际研究中心项目（CBAS2022GSP01），使用 Python/OpenCV/深度学习进行海洋影像处理与涡旋特征提取。
+
+- **海洋涡旋非对称性、各向异性与波流二象性遥感研究**（2021.09–2023.01）  
+  国家自然科学基金项目（42030406），参与时空匹配与异常特征挖掘，并完成阶段性研究输出。
+
+- **基于 LiDAR 点云的等高线生成算法研究**（2020.10–2021.04）  
+  基于 C#/.NET 实现点云三角网与等高线自动生成流程。
+
+- **北斗星基增强技术与农业信息服务**（2019.04–2020.04）  
+  面向高动态场景导航定位精度提升，参与算法验证与测试。
+
+- **摄影测量与高级定位技术融合**（2018.06–2018.08）  
+  外业 GNSS/RTK 与航测流程实践，参与地表特征提取与定位工作。
+
+
+## 🏅 荣誉奖励
+
+- 2022–2023 学年研究生国家奖学金
+- 2022–2023 学年信息科学与工程学院优秀研究生
+- 中国海洋大学 2024 届优秀毕业研究生
+- 2024 届山东省优秀毕业生
+- 2019 年度环境与测绘学院优秀共青团员
+- 2018、2019 年度中国矿业大学三等奖学金
+
+## 🛠 技能
+
+- 编程与数据分析：Python、C++、C#
+- 遥感/GIS 软件：ENVI、ArcGIS
+- 其他工具：Office、CAD、Photoshop
+
+## 🙋 兴趣爱好
+
+摄影、浆板、游泳、乒乓球、游戏
