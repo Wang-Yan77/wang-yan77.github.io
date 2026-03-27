@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Wang Yan(王焱)"
-description              : "王焱个人主页｜武汉大学博士研究生｜海洋遥感与GIS"
+title                    : "Wang Yan | 王岩"
+description              : "Personal homepage of Wang Yan | 武汉大学博士研究生"
 repository               : "Wang-Yan77/wang-yan77.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Wang Yan(王焱)"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "武汉大学博士研究生（博二）｜海洋遥感与GIS"
+  name             : "Wang Yan | 王岩"
+  avatar           : "images/profile-photo.jpg"
+  bio              : "Ph.D. Student, Wuhan University | 城市三维场景智能理解"
   location         : "Wuhan, China"
   employer         :
   pubmed           : 
