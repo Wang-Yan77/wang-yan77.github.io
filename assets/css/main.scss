@@ -172,21 +172,34 @@ html[data-lang="en"] .lang-en.lang-block {
   min-width: 0;
 }
 
-.greedy-nav {
-  min-width: 0;
-  background: transparent;
+.top-nav {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.greedy-nav .visible-links {
+.top-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.top-nav__links {
   display: flex;
   align-items: center;
+  gap: .12rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  width: max-content;
 }
 
-.greedy-nav .visible-links li {
+.top-nav__links li {
   display: block;
 }
 
-.greedy-nav a {
+.top-nav__links a {
   margin: 0 .42rem;
   padding: .45rem 0;
   font-size: .9rem;
@@ -319,7 +332,7 @@ html[data-lang="en"] .lang-en.lang-block {
     padding: .28rem .2rem !important;
   }
 
-  .greedy-nav a {
+  .top-nav__links a {
     margin: 0 .3rem;
     font-size: .84rem;
   }
