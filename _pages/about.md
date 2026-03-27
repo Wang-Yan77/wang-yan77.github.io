@@ -10,26 +10,25 @@ redirect_from:
 
 <section id="about-me" class="intro-section">
   <div class="lang-zh lang-block">
+    <h2 class="intro-title">个人简介</h2>
     <h1>王焱</h1>
-    <p class="intro-lead">武汉大学博士研究生（博二），目前在测绘遥感信息工程全国重点实验室开展研究。</p>
-    <p>研究主线聚焦城市三维场景理解、点云语义分割、场景推理与场景图构建，关注从几何结构到语义关系的统一建模。</p>
+    <p class="intro-lead">现于武汉大学测绘遥感信息工程全国重点实验室攻读博士并开展研究。</p>
     <ul class="intro-meta">
-      <li><strong>生日：</strong>1999.02</li>
+      <li><strong>性别：</strong>男</li>
       <li><strong>籍贯：</strong>山东淄博</li>
-      <li><strong>政治面貌：</strong>中共党员</li>
       <li><strong>电话：</strong>15689908221</li>
       <li><strong>邮箱：</strong>yan.wang77@outlook.com</li>
       <li><strong>外语能力：</strong>CET-6</li>
     </ul>
   </div>
+
   <div class="lang-en lang-block">
+    <h2 class="intro-title">Profile</h2>
     <h1>Wang Yan</h1>
-    <p class="intro-lead">Ph.D. student (Year 2) at Wuhan University, conducting research in the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing.</p>
-    <p>My current focus includes urban 3D scene understanding, point cloud semantic segmentation, scene reasoning, and scene graph construction.</p>
+    <p class="intro-lead">Currently pursuing a Ph.D. at Wuhan University and conducting research in the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing.</p>
     <ul class="intro-meta">
-      <li><strong>Date of Birth:</strong> 1999.02</li>
+      <li><strong>Gender:</strong> Male</li>
       <li><strong>Hometown:</strong> Zibo, Shandong</li>
-      <li><strong>Political Status:</strong> CPC Member</li>
       <li><strong>Phone:</strong> 15689908221</li>
       <li><strong>Email:</strong> yan.wang77@outlook.com</li>
       <li><strong>Language:</strong> CET-6</li>
@@ -39,21 +38,22 @@ redirect_from:
 
 <section id="research" class="cv-section">
   <div class="lang-zh lang-block">
-    <h2>研究兴趣</h2>
+    <h2>研究方向</h2>
     <ul>
-      <li>城市三维场景理解</li>
-      <li>城市三维点云语义分割</li>
-      <li>场景推理</li>
-      <li>场景图构建</li>
+      <li>城市三维场景理解与语义建模</li>
+      <li>城市三维点云语义分割与跨场景泛化</li>
+      <li>面向复杂城市场景的推理机制</li>
+      <li>多关系场景图构建与知识表达</li>
     </ul>
   </div>
+
   <div class="lang-en lang-block">
-    <h2>Research Interests</h2>
+    <h2>Research</h2>
     <ul>
-      <li>Urban 3D scene understanding</li>
-      <li>Semantic segmentation of urban 3D point clouds</li>
-      <li>Scene reasoning</li>
-      <li>Scene graph construction</li>
+      <li>Urban 3D scene understanding and semantic modeling</li>
+      <li>Semantic segmentation of urban 3D point clouds and cross-scene generalization</li>
+      <li>Reasoning mechanisms for complex urban scenes</li>
+      <li>Scene graph construction and relation-aware knowledge representation</li>
     </ul>
   </div>
 </section>
@@ -77,12 +77,13 @@ redirect_from:
       <p>专业：测绘工程</p>
     </div>
   </div>
+
   <div class="lang-en lang-block">
     <h2>Education</h2>
     <div class="edu-item">
       <h3>Wuhan University, Ph.D. Candidate</h3>
       <p>State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing | 2024.09 - Present</p>
-      <p>Major: Cartography and Geographic Information Systems</p>
+      <p>Major: Cartography and Geographic Information Engineering</p>
     </div>
     <div class="edu-item">
       <h3>Ocean University of China, M.S.</h3>
@@ -91,7 +92,7 @@ redirect_from:
     </div>
     <div class="edu-item">
       <h3>China University of Mining and Technology, B.E.</h3>
-      <p>School of Environment and Spatial Informatics | 2017.09 - 2021.06</p>
+      <p>School of Environment and Surveying | 2017.09 - 2021.06</p>
       <p>Major: Surveying and Mapping Engineering</p>
     </div>
   </div>
@@ -100,7 +101,8 @@ redirect_from:
 <section id="publications" class="cv-section">
   <div class="lang-zh lang-block">
     <h2>代表论文</h2>
-    <ol>
+    <p class="section-note">以下为已发表代表性工作，当前博士阶段研究重心已转向城市三维场景理解与点云语义分割。</p>
+    <ol class="pub-list">
       <li>
         <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., and Peng, D.<br>
         A submesoscale eddy identification dataset in the northwest Pacific Ocean derived from GOCI I chlorophyll a data based on deep learning.<br>
@@ -115,9 +117,11 @@ redirect_from:
       </li>
     </ol>
   </div>
+
   <div class="lang-en lang-block">
     <h2>Selected Publications</h2>
-    <ol>
+    <p class="section-note">These are representative published works from previous stages; the current Ph.D. focus is urban 3D scene understanding and point cloud semantic segmentation.</p>
+    <ol class="pub-list">
       <li>
         <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., and Peng, D.<br>
         A submesoscale eddy identification dataset in the northwest Pacific Ocean derived from GOCI I chlorophyll a data based on deep learning.<br>
@@ -137,10 +141,10 @@ redirect_from:
 <section id="interests" class="cv-section">
   <div class="lang-zh lang-block">
     <h2>兴趣爱好</h2>
-    <p>摄影、乒乓球、旅行。</p>
+    <p>摄影、乒乓球、旅行</p>
   </div>
   <div class="lang-en lang-block">
-    <h2>Interests</h2>
-    <p>Photography, ping-pong ball, and travel.</p>
+    <h2>Hobbies</h2>
+    <p>Photography, table tennis, and travel</p>
   </div>
 </section>

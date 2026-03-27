@@ -16,6 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
+# Required on Windows for TZInfo timezone database (Jekyll 3.10 / tzinfo 2.x)
+gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"

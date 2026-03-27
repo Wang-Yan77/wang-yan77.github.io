@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+﻿# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -7,9 +7,9 @@
 
 # Site Settings
 title                    : "Wang Yan | 王焱"
-description              : ""
-description_zh           : "武汉大学博士研究生，研究方向：三维场景理解与点云语义分割"
-description_en           : "Ph.D. student at Wuhan University, focusing on 3D scene understanding and point cloud semantic segmentation."
+description              : "Urban 3D scene understanding, point cloud semantic segmentation, and scene graph reasoning."
+description_zh           : "研究方向：城市三维场景理解、城市三维点云语义分割、场景推理与场景图构建。"
+description_en           : "Research focus: urban 3D scene understanding, urban 3D point cloud semantic segmentation, and scene graph reasoning."
 repository               : "Wang-Yan77/wang-yan77.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,8 +28,8 @@ author:
   name_en          : "Wang Yan"
   avatar           : "images/profile-photo.jpg"
   bio              : "Ph.D. Student, Wuhan University"
-  bio_zh           : "武汉大学博士研究生（博二）"
-  bio_en           : "Ph.D. Student (Year 2), Wuhan University"
+  bio_zh           : "武汉大学博士生"
+  bio_en           : "Ph.D. Student, Wuhan University"
   location         : "Wuhan, China"
   location_zh      : "武汉，中国"
   location_en      : "Wuhan, China"
@@ -139,6 +139,8 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
+  load_paths:
+    - _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
@@ -169,3 +171,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+

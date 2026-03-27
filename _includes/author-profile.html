@@ -1,11 +1,11 @@
-{% if page.author and site.data.authors[page.author] %}
+﻿{% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="images/profile-photo.jpg?v=20260327-3" class="author__avatar" alt="{{ author.name_en | default: author.name }}">
+    <img src="images/profile-photo.jpg?v=20260327-4" class="author__avatar" alt="{{ author.name_en | default: author.name }}">
   </div>
 
   <div class="author__content">
@@ -25,14 +25,6 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     {% assign email_compose = "https://outlook.live.com/mail/0/deeplink/compose?to=" | append: author.email %}
     <ul class="author__urls social-icons">
-      {% if site.description_zh or site.description_en or site.description %}
-        <li>
-          <div style="white-space: normal; margin-bottom: 1em;">
-            <span class="lang-zh">{{ site.description_zh | default: site.description }}</span>
-            <span class="lang-en">{{ site.description_en | default: site.description }}</span>
-          </div>
-        </li>
-      {% endif %}
       {% if author.location %}
         <li>
           <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
@@ -240,3 +232,5 @@
     </div>
   </div>
 </div>
+
+
