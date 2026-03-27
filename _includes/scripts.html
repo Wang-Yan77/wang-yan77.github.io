@@ -4,27 +4,41 @@
     var key = "site-language";
     var root = document.documentElement;
     var switcher;
+    var preset = localStorage.getItem(key);
+
+    if (preset === "en") {
+      root.setAttribute("data-lang", "en");
+      root.setAttribute("lang", "en");
+    }
+
+    function updateSwitcher(lang) {
+      if (!switcher) {
+        return;
+      }
+
+      var nextText = lang === "zh" ? "EN" : "中文";
+      var ariaLabel = lang === "zh" ? "Switch to English" : "切换到中文";
+      switcher.textContent = nextText;
+      switcher.setAttribute("aria-label", ariaLabel);
+    }
 
     function applyLanguage(lang) {
       var normalized = lang === "en" ? "en" : "zh";
       root.setAttribute("data-lang", normalized);
       root.setAttribute("lang", normalized === "en" ? "en" : "zh-CN");
       localStorage.setItem(key, normalized);
-
-       if (switcher) {
-        switcher.value = normalized;
-      }
+      updateSwitcher(normalized);
     }
 
     document.addEventListener("DOMContentLoaded", function () {
       switcher = document.getElementById("lang-switcher");
-
       var saved = localStorage.getItem(key);
       applyLanguage(saved || "zh");
 
       if (switcher) {
-        switcher.addEventListener("change", function (event) {
-          applyLanguage(event.target.value);
+        switcher.addEventListener("click", function () {
+          var current = root.getAttribute("data-lang") === "en" ? "en" : "zh";
+          applyLanguage(current === "zh" ? "en" : "zh");
         });
       }
     });

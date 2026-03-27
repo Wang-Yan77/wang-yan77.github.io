@@ -1,21 +1,21 @@
 # main links
 main:
-  - title_zh: "关于我"
-    title_en: "About"
+  - title_zh: "简介"
+    title_en: "Intro"
     url: "#about-me"
 
-  - title_zh: "研究兴趣"
-    title_en: "Research Interests"
+  - title_zh: "研究"
+    title_en: "Research"
     url: "#research"
 
-  - title_zh: "教育背景"
+  - title_zh: "教育"
     title_en: "Education"
     url: "#education"
 
-  - title_zh: "代表论文"
-    title_en: "Publications"
+  - title_zh: "论文"
+    title_en: "Papers"
     url: "#publications"
 
-  - title_zh: "兴趣爱好"
-    title_en: "Interests"
+  - title_zh: "兴趣"
+    title_en: "Hobbies"
     url: "#interests"

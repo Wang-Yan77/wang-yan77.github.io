@@ -4,12 +4,6 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
-            <a href="#about-me" target="_self">
-              <span class="lang-zh">首页</span>
-              <span class="lang-en">Home</span>
-            </a>
-          </li>
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item">
               <a href="{{ link.url }}" target="_self">
@@ -23,11 +17,7 @@
       </nav>
     </div>
     <div class="masthead__lang">
-      <label class="screen-reader-text" for="lang-switcher">Language</label>
-      <select id="lang-switcher" class="lang-switcher-select" aria-label="Language">
-        <option value="zh">中文</option>
-        <option value="en">English</option>
-      </select>
+      <button id="lang-switcher" class="lang-switcher-btn" type="button" aria-label="Switch language">EN</button>
     </div>
   </div>
 </div>
