@@ -4,8 +4,8 @@ main:
     title_en: "About"
     url: "#about-me"
 
-  - title_zh: "研究方向"
-    title_en: "Research"
+  - title_zh: "研究兴趣"
+    title_en: "Research Interests"
     url: "#research"
 
   - title_zh: "教育背景"

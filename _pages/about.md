@@ -10,40 +10,40 @@ redirect_from:
 
 <section id="about-me" class="profile-hero">
   <div class="lang-zh lang-block">
-    <h1>王岩</h1>
-    <p class="hero-subtitle">武汉大学博士研究生，研究聚焦于城市三维场景智能理解。</p>
+    <h1>王焱</h1>
+    <p class="hero-subtitle">武汉大学博士研究生（博二），研究聚焦于三维场景理解与点云语义分割。</p>
     <ul class="hero-meta">
       <li>所在地：武汉，中国</li>
-      <li>邮箱：<a href="mailto:yan.wang77@outlook.com">yan.wang77@outlook.com</a></li>
-      <li>Google Scholar：<a href="https://scholar.google.com/citations?user=dn_KokcAAAAJ&hl">Scholar Profile</a></li>
+      <li>邮箱：<a href="https://outlook.live.com/mail/0/deeplink/compose?to=yan.wang77@outlook.com" target="_blank" rel="noopener">点击网页发信</a></li>
+      <li>Google Scholar：<a href="https://scholar.google.com/citations?user=dn_KokcAAAAJ&hl" target="_blank" rel="noopener">Scholar Profile</a></li>
     </ul>
   </div>
   <div class="lang-en lang-block">
     <h1>Wang Yan</h1>
-    <p class="hero-subtitle">Ph.D. student at Wuhan University, focusing on intelligent understanding of urban 3D scenes.</p>
+    <p class="hero-subtitle">Ph.D. student (Year 2) at Wuhan University, focusing on 3D scene understanding and point cloud semantic segmentation.</p>
     <ul class="hero-meta">
       <li>Location: Wuhan, China</li>
-      <li>Email: <a href="mailto:yan.wang77@outlook.com">yan.wang77@outlook.com</a></li>
-      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=dn_KokcAAAAJ&hl">Scholar Profile</a></li>
+      <li>Email: <a href="https://outlook.live.com/mail/0/deeplink/compose?to=yan.wang77@outlook.com" target="_blank" rel="noopener">Send via web mail</a></li>
+      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=dn_KokcAAAAJ&hl" target="_blank" rel="noopener">Scholar Profile</a></li>
     </ul>
   </div>
 </section>
 
 <section id="research" class="cv-section">
   <div class="lang-zh lang-block">
-    <h2>研究方向</h2>
+    <h2>研究兴趣</h2>
     <ul>
-      <li>城市三维点云语义分割</li>
       <li>城市三维场景理解</li>
+      <li>城市三维点云语义分割</li>
       <li>场景推理</li>
       <li>场景图构建</li>
     </ul>
   </div>
   <div class="lang-en lang-block">
-    <h2>Research Directions</h2>
+    <h2>Research Interests</h2>
     <ul>
-      <li>Semantic segmentation of urban 3D point clouds</li>
       <li>Urban 3D scene understanding</li>
+      <li>Semantic segmentation of urban 3D point clouds</li>
       <li>Scene reasoning</li>
       <li>Scene graph construction</li>
     </ul>
@@ -94,16 +94,16 @@ redirect_from:
     <h2>代表论文</h2>
     <ol>
       <li>
-        <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., Peng, D.<br>
+        <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., and Peng, D.<br>
         A submesoscale eddy identification dataset in the northwest Pacific Ocean derived from GOCI I chlorophyll a data based on deep learning.<br>
         <em>Earth System Science Data</em>, 16, 5737-5752, 2024.<br>
-        DOI: <a href="https://doi.org/10.5194/essd-16-5737-2024">10.5194/essd-16-5737-2024</a>
+        DOI: <a href="https://doi.org/10.5194/essd-16-5737-2024" target="_blank" rel="noopener">10.5194/essd-16-5737-2024</a>
       </li>
       <li>
         <strong>Wang, Y.</strong>, Yang, J., Chen, G.<br>
         Euphotic Zone Depth Anomaly in Global Mesoscale Eddies by MultiMission Fusion Data.<br>
         <em>Remote Sensing</em>, 15(4):1062, 2023.<br>
-        DOI: <a href="https://doi.org/10.3390/rs15041062">10.3390/rs15041062</a>
+        DOI: <a href="https://doi.org/10.3390/rs15041062" target="_blank" rel="noopener">10.3390/rs15041062</a>
       </li>
     </ol>
   </div>
@@ -111,16 +111,16 @@ redirect_from:
     <h2>Selected Publications</h2>
     <ol>
       <li>
-        <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., Peng, D.<br>
+        <strong>Wang, Y.</strong>, Chen, G., Yang, J., Gui, Z., and Peng, D.<br>
         A submesoscale eddy identification dataset in the northwest Pacific Ocean derived from GOCI I chlorophyll a data based on deep learning.<br>
         <em>Earth System Science Data</em>, 16, 5737-5752, 2024.<br>
-        DOI: <a href="https://doi.org/10.5194/essd-16-5737-2024">10.5194/essd-16-5737-2024</a>
+        DOI: <a href="https://doi.org/10.5194/essd-16-5737-2024" target="_blank" rel="noopener">10.5194/essd-16-5737-2024</a>
       </li>
       <li>
         <strong>Wang, Y.</strong>, Yang, J., Chen, G.<br>
         Euphotic Zone Depth Anomaly in Global Mesoscale Eddies by MultiMission Fusion Data.<br>
         <em>Remote Sensing</em>, 15(4):1062, 2023.<br>
-        DOI: <a href="https://doi.org/10.3390/rs15041062">10.3390/rs15041062</a>
+        DOI: <a href="https://doi.org/10.3390/rs15041062" target="_blank" rel="noopener">10.3390/rs15041062</a>
       </li>
     </ol>
   </div>

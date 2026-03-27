@@ -159,31 +159,48 @@ html[data-lang="en"] .lang-en.lang-block {
   background: rgba(255, 255, 255, 0.95);
 }
 
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .masthead__menu-item a {
   color: var(--brand-deep);
   font-weight: 600;
 }
 
-.lang-toggle-item {
-  margin-left: .75rem;
+.masthead__lang {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
 }
 
-.lang-switcher {
-  border: 1px solid var(--brand-mid);
+.lang-switcher-select {
+  border: 1px solid #b7cadb;
   color: var(--brand-deep);
+  min-width: 6.5rem;
   background: #fff;
-  border-radius: 999px;
-  padding: .35rem .8rem;
-  line-height: 1;
-  font-size: .85rem;
-  font-weight: 700;
+  border-radius: 12px;
+  padding: .42rem .65rem;
+  line-height: 1.2;
+  font-size: .9rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: all .2s ease;
+  box-shadow: 0 6px 18px rgba(15, 76, 129, 0.1);
 }
 
-.lang-switcher:hover {
+.lang-switcher-select:hover,
+.lang-switcher-select:focus {
   background: var(--brand-soft);
-  transform: translateY(-1px);
+  border-color: var(--brand-mid);
+  outline: 0;
 }
 
 .profile-hero,
@@ -273,6 +290,12 @@ html[data-lang="en"] .lang-en.lang-block {
 }
 
 @include breakpoint(max-width $medium) {
+  .lang-switcher-select {
+    min-width: 5.7rem;
+    font-size: .82rem;
+    padding: .34rem .5rem;
+  }
+
   .profile-hero {
     padding: 1.6rem 1.2rem;
     border-radius: 16px;

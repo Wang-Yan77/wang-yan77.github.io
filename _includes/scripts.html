@@ -3,25 +3,30 @@
   (function () {
     var key = "site-language";
     var root = document.documentElement;
+    var switcher;
 
     function applyLanguage(lang) {
       var normalized = lang === "en" ? "en" : "zh";
       root.setAttribute("data-lang", normalized);
       root.setAttribute("lang", normalized === "en" ? "en" : "zh-CN");
       localStorage.setItem(key, normalized);
+
+       if (switcher) {
+        switcher.value = normalized;
+      }
     }
 
-    var saved = localStorage.getItem(key);
-    applyLanguage(saved || "zh");
+    document.addEventListener("DOMContentLoaded", function () {
+      switcher = document.getElementById("lang-switcher");
 
-    document.addEventListener("click", function (event) {
-      var button = event.target.closest("#lang-switcher");
-      if (!button) {
-        return;
+      var saved = localStorage.getItem(key);
+      applyLanguage(saved || "zh");
+
+      if (switcher) {
+        switcher.addEventListener("change", function (event) {
+          applyLanguage(event.target.value);
+        });
       }
-
-      var next = root.getAttribute("data-lang") === "zh" ? "en" : "zh";
-      applyLanguage(next);
     });
   })();
 </script>
