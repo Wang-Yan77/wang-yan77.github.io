@@ -64,7 +64,7 @@ redirect_from:
     <div class="edu-item">
       <h3>武汉大学 博士（在读）</h3>
       <p>测绘遥感信息工程全国重点实验室 | 2024.09 - 至今</p>
-      <p>专业：地图学与地理信息系统</p>
+      <p>专业：地图制图学与地理信息工程</p>
     </div>
     <div class="edu-item">
       <h3>中国海洋大学 硕士</h3>
@@ -137,10 +137,10 @@ redirect_from:
 <section id="interests" class="cv-section">
   <div class="lang-zh lang-block">
     <h2>兴趣爱好</h2>
-    <p>摄影、篮球、徒步、旅行。</p>
+    <p>摄影、乒乓球、旅行。</p>
   </div>
   <div class="lang-en lang-block">
     <h2>Interests</h2>
-    <p>Photography, basketball, hiking, and travel.</p>
+    <p>Photography, ping-pong ball, and travel.</p>
   </div>
 </section>
