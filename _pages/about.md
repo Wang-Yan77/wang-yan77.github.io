@@ -11,13 +11,29 @@ redirect_from:
 <section id="about-me" class="intro-section">
   <div class="lang-zh lang-block">
     <h1>王焱</h1>
-    <p>武汉大学博士研究生（博二），目前在测绘遥感信息工程全国重点实验室开展研究。</p>
+    <p class="intro-lead">武汉大学博士研究生（博二），目前在测绘遥感信息工程全国重点实验室开展研究。</p>
     <p>研究主线聚焦城市三维场景理解、点云语义分割、场景推理与场景图构建，关注从几何结构到语义关系的统一建模。</p>
+    <ul class="intro-meta">
+      <li><strong>生日：</strong>1999.02</li>
+      <li><strong>籍贯：</strong>山东淄博</li>
+      <li><strong>政治面貌：</strong>中共党员</li>
+      <li><strong>电话：</strong>15689908221</li>
+      <li><strong>邮箱：</strong>yan.wang77@outlook.com</li>
+      <li><strong>外语能力：</strong>CET-6</li>
+    </ul>
   </div>
   <div class="lang-en lang-block">
     <h1>Wang Yan</h1>
-    <p>Ph.D. student (Year 2) at Wuhan University, conducting research in the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing.</p>
+    <p class="intro-lead">Ph.D. student (Year 2) at Wuhan University, conducting research in the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing.</p>
     <p>My current focus includes urban 3D scene understanding, point cloud semantic segmentation, scene reasoning, and scene graph construction.</p>
+    <ul class="intro-meta">
+      <li><strong>Date of Birth:</strong> 1999.02</li>
+      <li><strong>Hometown:</strong> Zibo, Shandong</li>
+      <li><strong>Political Status:</strong> CPC Member</li>
+      <li><strong>Phone:</strong> 15689908221</li>
+      <li><strong>Email:</strong> yan.wang77@outlook.com</li>
+      <li><strong>Language:</strong> CET-6</li>
+    </ul>
   </div>
 </section>
 
