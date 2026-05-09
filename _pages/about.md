@@ -16,8 +16,8 @@ redirect_from:
     <ul class="intro-meta">
       <li><strong>性别：</strong>男</li>
       <li><strong>籍贯：</strong>山东淄博</li>
-      <li><strong>电话：</strong>15689908221</li>
-      <li><strong>邮箱：</strong>yan.wang77@outlook.com</li>
+      <li><strong>电话：</strong>可邮箱联系</li>
+      <li><strong>邮箱：</strong><span id="email"></span></li>
       <li><strong>外语能力：</strong>CET-6</li>
     </ul>
   </div>
@@ -29,8 +29,8 @@ redirect_from:
     <ul class="intro-meta">
       <li><strong>Gender:</strong> Male</li>
       <li><strong>Hometown:</strong> Zibo, Shandong</li>
-      <li><strong>Phone:</strong> 15689908221</li>
-      <li><strong>Email:</strong> yan.wang77@outlook.com</li>
+      <li><strong>Phone:</strong> contact via email</li>
+      <li><strong>Email:</strong> <span id="email"></span></li>
       <li><strong>Language:</strong> CET-6</li>
     </ul>
   </div>
@@ -148,3 +148,15 @@ redirect_from:
     <p>Photography, table tennis, and travel</p>
   </div>
 </section>
+<script>
+  const chars = [
+    121,97,110,46,119,97,110,103,55,55,
+    64,
+    111,117,116,108,111,111,107,46,99,111,109
+  ];
+
+  const email = String.fromCharCode(...chars);
+  const el = document.getElementById('email');
+
+  el.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+</script>
